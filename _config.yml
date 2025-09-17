@@ -1,0 +1,24 @@
+title: "Traveling Puzzle"
+description: "Exploring the world one piece at a time."
+url: "https://travelingpuzzle.com"
+baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+author:
+  name: "Traveling Puzzle"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+paginate: 5
+paginate_path: "/page:num/"
