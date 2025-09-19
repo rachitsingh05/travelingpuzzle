@@ -1,6 +1,6 @@
 title: "Traveling Puzzle"
 description: "Every journey is a puzzle piece. Travel stories, photo journals, and reflections from around the world."
-baseurl: "" # leave empty for root domain
+baseurl:  "/travelingpuzzle" 
 url: "https://rachitsingh05.github.io" # use github.io while testing at work
 
 theme: minima
