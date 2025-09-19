@@ -1,22 +1,17 @@
-# Site settings
 title: "Traveling Puzzle"
 description: "Every journey is a puzzle piece. Travel stories, photo journals, and reflections from around the world."
 baseurl: "" # leave empty for root domain
-url: "https://travelingpuzzle.com" # change to github.io when using preview
+url: "https://rachitsingh05.github.io" # use github.io while testing at work
 
-# Build settings
 theme: minima
 
-# Author info (supported by minima)
 author: Rachit Singh
 email: your-email@example.com
 
-# Social links (supported by minima)
 github_username: rachitsingh05
 twitter_username: yourprofile
 instagram_username: yourprofile
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
