@@ -1,24 +1,38 @@
+# Site settings
 title: "Traveling Puzzle"
-description: "Exploring the world one piece at a time."
-url: "https://travelingpuzzle.com"
-baseurl: ""
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+description: "Every journey is a puzzle piece. Travel stories, photo journals, and reflections from around the world."
+baseurl: "" # leave empty for root domain
+url: "https://travelingpuzzle.com" # your custom domain
 
-plugins:
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-seo-tag
+# Build settings
+theme: minima
 
+# Navigation menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+  - title: "Blog"
+    url: / # shows posts on homepage
+
+# Author settings
 author:
-  name: "Traveling Puzzle"
+  name: "Rachit Singh"
+  email: "your-email@example.com"
+  bio: "Explorer at heart, storyteller by passion. Sharing travel puzzles one post at a time."
+  avatar: "/assets/images/avatar.jpg" # upload your photo later
 
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
+# Social links
+social_links:
+  - { platform: "github", user_url: "https://github.com/rachitsingh05" }
+  - { platform: "instagram", user_url: "https://instagram.com/yourprofile" }
+  - { platform: "twitter", user_url: "https://twitter.com/yourprofile" }
 
-paginate: 5
-paginate_path: "/page:num/"
+# Markdown & Plugins
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
