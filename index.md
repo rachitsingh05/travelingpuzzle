@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Welcome to Traveling Puzzle"
-excerpt: "Exploring the world one piece at a time — stories, snapshots, and reflections from across the globe."
+excerpt: "Exploring the world one piece at a time - stories, snapshots, and reflections from across the globe."
 author_profile: true
 ---
 
