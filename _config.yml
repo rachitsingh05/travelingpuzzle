@@ -2,37 +2,21 @@
 title: "Traveling Puzzle"
 description: "Every journey is a puzzle piece. Travel stories, photo journals, and reflections from around the world."
 baseurl: "" # leave empty for root domain
-url: "https://travelingpuzzle.com" # your custom domain
+url: "https://travelingpuzzle.com" # change to github.io when using preview
 
 # Build settings
 theme: minima
 
-# Navigation menu
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
-  - title: "Blog"
-    url: / # shows posts on homepage
+# Author info (supported by minima)
+author: Rachit Singh
+email: your-email@example.com
 
-# Author settings
-author:
-  name: "Rachit Singh"
-  email: "your-email@example.com"
-  bio: "Explorer at heart, storyteller by passion. Sharing travel puzzles one post at a time."
-  avatar: "/assets/images/avatar.jpg" # upload your photo later
+# Social links (supported by minima)
+github_username: rachitsingh05
+twitter_username: yourprofile
+instagram_username: yourprofile
 
-# Social links
-social_links:
-  - { platform: "github", user_url: "https://github.com/rachitsingh05" }
-  - { platform: "instagram", user_url: "https://instagram.com/yourprofile" }
-  - { platform: "twitter", user_url: "https://twitter.com/yourprofile" }
-
-# Markdown & Plugins
-markdown: kramdown
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
